@@ -11,5 +11,7 @@ namespace TestingRepos
         public int ID { get; set; }
         public string Name { get; set; }
         public DateTime CreatedDate { get; set; }
+
+        public DateTime DistroyDate { get; set; }
     }
 }
